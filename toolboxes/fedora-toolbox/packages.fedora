@@ -4,8 +4,10 @@ fastfetch
 fd-find
 fzf
 golang
+hugo
 lsd
 neovim
 python3-neovim
 ripgrep
+snapd
 zoxide

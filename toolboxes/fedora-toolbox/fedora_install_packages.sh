@@ -12,6 +12,12 @@ install_chezmoi() {
   sh -c "$(curl -fsLS get.chezmoi.io/lb)" 
 }
 
+# Install dart-sass
+install_dartsass() {
+  echo "Installing dart-sass..."
+  snap install dart-sass
+}
+
 # Install GoMono Nerd Font
 install_nerd_fonts() {
   echo "Installing GoMono Nerd Font..."
